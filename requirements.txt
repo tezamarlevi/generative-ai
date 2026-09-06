@@ -1,0 +1,5 @@
+# Versi dependency yang sudah tersedia di .venv project saat implementasi.
+torch==2.13.0
+torchvision==0.28.0
+matplotlib==3.11.1
+numpy==2.5.2

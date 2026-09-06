@@ -1,0 +1,47 @@
+{
+  "config": {
+    "epochs": 15,
+    "batch_size": 128,
+    "learning_rate": 0.001,
+    "seed": 42,
+    "latent_dim": 2,
+    "hidden_dim": 400,
+    "optimizer": "Adam",
+    "kl_weight": 1,
+    "device": "mps",
+    "train_samples": 60000,
+    "test_samples": 10000,
+    "python": "3.12.14",
+    "torch": "2.13.0",
+    "torchvision": "0.28.0",
+    "matplotlib": "3.11.1",
+    "numpy": "2.5.2"
+  },
+  "final_train": {
+    "epoch": 15,
+    "loss": 150.190673828125,
+    "reconstruction": 144.07659912109375,
+    "kl": 6.114021301269531,
+    "seconds": 3.126558832998853
+  },
+  "test": {
+    "loss": 150.6802520751953,
+    "reconstruction": 144.55905151367188,
+    "kl": 6.121190071105957
+  },
+  "evaluation_device": "mps",
+  "reconstruction_test_indices": [
+    3,
+    2,
+    1,
+    18,
+    4,
+    8,
+    11,
+    0,
+    61,
+    7
+  ],
+  "parameter_count": 631188,
+  "training_seconds": 38.607142541062785
+}
